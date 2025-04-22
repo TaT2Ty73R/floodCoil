@@ -3,44 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flood Coil | Trill Vapors</title>
+  <title>FLOOD COIL | TRILL VAPORS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      padding: 2rem;
-      font-family: 'Oswald', sans-serif;
-      background-color: #111;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle at center, #0a0a0a 0%, #000000 100%);
       color: #eee;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
     }
     h1 {
-      font-size: 3rem;
-      letter-spacing: 2px;
-      margin-bottom: 0.5rem;
-      color: #c792ea;
+      font-size: 4rem;
+      letter-spacing: 3px;
+      margin-top: 2rem;
+      color: #b45eff;
+      text-shadow: 0 0 10px #b45eff;
+      animation: fadeIn 1.5s ease-out;
     }
     h2 {
       font-size: 1.25rem;
-      font-weight: normal;
-      color: #aaa;
+      color: #ccc;
+      font-style: italic;
+      text-align: center;
       margin-bottom: 2rem;
+      animation: fadeIn 2s ease-out;
     }
     .block {
-      margin-bottom: 2rem;
+      font-family: 'Share Tech Mono', monospace;
       font-size: 1.1rem;
-      line-height: 1.6;
-      white-space: pre-wrap;
+      line-height: 1.75;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #333;
+      max-width: 90%;
+      box-shadow: 0 0 15px rgba(180, 94, 255, 0.2);
+      animation: slideUp 1.2s ease-out;
     }
     footer {
-      margin-top: 4rem;
+      margin-top: 3rem;
+      text-align: center;
       font-size: 0.95rem;
       color: #888;
+      letter-spacing: 1px;
+      animation: fadeIn 2.5s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
   <h1>FLOOD COIL</h1>
-  <h2>“From the Flood to the Fog — all made, none fake.”</h2>
+  <h2>"From the Flood to the Fog — all made, none fake."</h2>
 
   <div class="block">
     FR4M3D ST4PL3 FUS3D CL4PT0N<br />
